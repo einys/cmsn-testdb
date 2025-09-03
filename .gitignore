@@ -1,0 +1,5 @@
+*.json
+*.bson
+.env
+.env.*
+!.env.example
