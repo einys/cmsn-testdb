@@ -1,4 +1,10 @@
-### 임시 DB 띄우기
+# 임시 DB 띄우기
+## 실행
+### 옵션 1: Makefile
+cmsn-testdb 프로젝트 열면 makefile 있음
+https://github.com/einys/cmsn-testdb/blob/7b50ae8bf4693fe56782fb32f58e9ddaae87e981/Makefile
+
+### 옵션 2: 콘솔 커맨드
 1. mongodb를 docker container로 실행
 ```
 docker run --rm -d -p 27017:27017 --name test-mongo mongo:6 --replSet rs0 --bind_ip_all
